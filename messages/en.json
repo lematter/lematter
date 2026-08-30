@@ -13,13 +13,71 @@
   },
   "Home": {
     "hero": {
-      "heading": "Hero"
+      "heading": "Open source AI for life science research."
     },
     "features": {
-      "heading": "Features"
+      "heading": "Features",
+      "items": {
+        "knowledgeGraph": {
+          "title": "Knowledge Graph",
+          "line1": "Understands how scientific concepts relate to one another.",
+          "line2": "Connects ideas across research instead of treating them in isolation."
+        },
+        "semanticSearch": {
+          "title": "Semantic Search",
+          "line1": "Finds relevant research based on meaning, not exact wording.",
+          "line2": "Gets useful results even if you phrase things differently."
+        },
+        "dataSovereignty": {
+          "title": "Data Sovereignty",
+          "line1": "Keeps your data within your own environment at all times.",
+          "line2": "Nothing sensitive has to leave your control to use it."
+        },
+        "openSource": {
+          "title": "Open Source",
+          "line1": "Everything about how the platform works is open and inspectable.",
+          "line2": "Never dependent on a closed system you can't verify."
+        },
+        "complianceControls": {
+          "title": "Compliance Controls",
+          "line1": "Built to meet standards required in regulated research settings.",
+          "line2": "Helps institutions use the platform without extra compliance work."
+        },
+        "labIntegration": {
+          "title": "Lab Integration",
+          "line1": "Fits naturally into the tools and workflows you already use.",
+          "line2": "No need to change how your team works to benefit."
+        }
+      }
     },
     "faqs": {
-      "heading": "FAQs"
+      "heading": "FAQs",
+      "items": {
+        "whatIs": {
+          "question": "What is Lematter?",
+          "answer": "Lematter is an open source AI platform for life science research, built to give grounded, citation-backed answers instead of generic AI responses."
+        },
+        "different": {
+          "question": "How is this different from other AI tools?",
+          "answer": "Lematter is built specifically for research and lab use — every answer is grounded in real sources with citations you can verify."
+        },
+        "openSource": {
+          "question": "Is Lematter open source?",
+          "answer": "Yes. The platform is open source, so anyone can inspect how it works."
+        },
+        "selfHost": {
+          "question": "Can I self-host Lematter?",
+          "answer": "Yes, self-hosting is supported so your data can stay within your own infrastructure."
+        },
+        "who": {
+          "question": "Who is Lematter for?",
+          "answer": "Researchers, labs, biotech teams, and institutions that need trustworthy AI support for their work."
+        },
+        "free": {
+          "question": "Is Lematter free?",
+          "answer": "The open source core is free to use."
+        }
+      }
     },
     "cta": {
       "heading": "Get Started"
