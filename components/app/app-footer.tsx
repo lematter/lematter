@@ -12,9 +12,9 @@ export async function AppFooter() {
 
   return (
     <footer className="border-t border-border">
-      <div className="mx-auto flex w-full max-w-5xl flex-col items-center justify-between gap-4 px-6 py-8 text-sm text-muted-foreground sm:flex-row">
+      <div className="mx-auto flex w-full max-w-5xl flex-col items-center justify-between gap-4 px-4 py-8 text-center text-sm text-muted-foreground sm:flex-row sm:px-6 sm:text-left">
         <p>{t("footer.rights", { year: new Date().getFullYear() })}</p>
-        <ul className="flex items-center gap-6">
+        <ul className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
           {links.map(({ href, label }) => (
             <li key={href}>
               <Link href={href} className="transition-colors hover:text-foreground">

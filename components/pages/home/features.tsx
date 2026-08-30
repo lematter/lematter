@@ -30,11 +30,13 @@ export async function Features() {
   return (
     <section
       id="features"
-      className="mx-auto flex w-full max-w-5xl flex-col items-center px-6 py-24 text-center"
+      className="mx-auto flex w-full max-w-5xl flex-col items-center px-4 py-16 text-center sm:px-6 sm:py-24"
     >
-      <h2 className="text-3xl font-semibold tracking-tight">{t("heading")}</h2>
+      <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
+        {t("heading")}
+      </h2>
 
-      <div className="mt-12 grid w-full gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-10 grid w-full gap-4 sm:mt-12 sm:grid-cols-2 lg:grid-cols-3">
         {items.map(({ key, Icon }) => (
           <Card key={key} className="text-left">
             <CardHeader>

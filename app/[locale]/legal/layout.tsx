@@ -14,7 +14,7 @@ export default async function LegalLayout({
 
   return (
     <AppLayout>
-      <div className="mx-auto w-full max-w-3xl px-6 py-16">
+      <div className="mx-auto w-full max-w-3xl px-4 py-12 sm:px-6 sm:py-16">
         <Link
           href="/legal/terms"
           className="mb-8 inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"

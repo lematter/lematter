@@ -29,7 +29,7 @@ export default async function CookiesPage({
   return (
     <article>
       <header className="mb-10">
-        <h1 className="text-3xl font-semibold tracking-tight">{tt("title")}</h1>
+        <h1 className="text-2xl font-semibold tracking-tight sm:text-3xl">{tt("title")}</h1>
         <p className="mt-3 text-muted-foreground">{tt("intro")}</p>
         <p className="mt-4 text-sm text-muted-foreground">
           {t("lastUpdated", {

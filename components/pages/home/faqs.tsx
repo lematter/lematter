@@ -22,11 +22,13 @@ export async function Faqs() {
   return (
     <section
       id="faqs"
-      className="mx-auto flex w-full max-w-3xl flex-col items-center px-6 py-24 text-center"
+      className="mx-auto flex w-full max-w-3xl flex-col items-center px-4 py-16 text-center sm:px-6 sm:py-24"
     >
-      <h2 className="text-3xl font-semibold tracking-tight">{t("heading")}</h2>
+      <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">
+        {t("heading")}
+      </h2>
 
-      <div className="mt-12 w-full">
+      <div className="mt-8 w-full sm:mt-12">
         <FaqsAccordion items={items} />
       </div>
     </section>
