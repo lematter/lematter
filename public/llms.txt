@@ -1,0 +1,28 @@
+# Lematter
+
+> Lematter is an open source AI platform for life science research. It gives grounded, citation-backed answers instead of generic AI responses, and is built for the trust, privacy, and compliance needs of researchers, labs, and institutions.
+
+Lematter is designed specifically for research and lab use. Every answer is grounded in real sources with verifiable citations. The platform is open source and can be self-hosted so data stays within your own infrastructure.
+
+## Key features
+
+- Knowledge Graph: understands how scientific concepts relate to one another and connects ideas across research.
+- Semantic Search: finds relevant research based on meaning, not exact wording.
+- Data Sovereignty: keeps your data within your own environment; nothing sensitive has to leave your control.
+- Open Source: everything about how the platform works is open and inspectable.
+- Compliance Controls: built to meet standards required in regulated research settings.
+- Lab Integration: fits into the tools and workflows teams already use.
+
+## Who it is for
+
+- Researchers, labs, biotech teams, and institutions that need trustworthy AI support for their work.
+
+## Pricing
+
+- The open source core is free to use.
+
+## Legal
+
+- [Terms of Service](/legal/terms): rules and conditions for using the service.
+- [Privacy Policy](/legal/privacy): how personal data is collected, used, and protected.
+- [Cookie Policy](/legal/cookies): how and why cookies are used.
