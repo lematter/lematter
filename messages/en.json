@@ -58,6 +58,15 @@
         }
       }
     },
+    "connect": {
+      "heading": "Connect the way you work",
+      "subtitle": "Use Lematter from the command line, in your code, or through the Model Context Protocol.",
+      "tabs": {
+        "cli": "CLI",
+        "sdk": "SDK",
+        "mcp": "MCP"
+      }
+    },
     "faqs": {
       "heading": "FAQs",
       "items": {
