@@ -1,16 +1,35 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Google_Sans } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
+
+const gaId = process.env.NEXT_PUBLIC_GA_ID;
+const clarityId = process.env.NEXT_PUBLIC_CLARITY_ID;
 
 const googleSans = Google_Sans({
   variable: "--font-google-sans",
   subsets: ["latin"],
   axes: ["GRAD"],
   display: "swap",
+  // Google Sans has no metric data for an auto-generated fallback, which
+  // triggers a build warning. Provide an explicit system fallback and disable
+  // the automatic adjustment.
+  adjustFontFallback: false,
+  fallback: [
+    "ui-sans-serif",
+    "system-ui",
+    "-apple-system",
+    "Segoe UI",
+    "Roboto",
+    "Helvetica Neue",
+    "Arial",
+    "sans-serif",
+  ],
 });
 
 export const metadata: Metadata = {
@@ -46,6 +65,16 @@ export default async function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        {gaId ? <GoogleAnalytics gaId={gaId} /> : null}
+        {clarityId ? (
+          <Script id="ms-clarity" strategy="afterInteractive">
+            {`(function(c,l,a,r,i,t,y){
+              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "${clarityId}");`}
+          </Script>
+        ) : null}
       </body>
     </html>
   );
