@@ -8,7 +8,15 @@
       "cookies": "Cookies"
     },
     "footer": {
-      "rights": "© {year} Lematter. All rights reserved."
+      "rights": "© {year} Lematter. All rights reserved.",
+      "legal": "Legal",
+      "social": "Social",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "cookies": "Cookie Policy",
+      "linkedin": "LinkedIn",
+      "x": "X",
+      "github": "GitHub"
     }
   },
   "Home": {
