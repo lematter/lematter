@@ -1,4 +1,4 @@
-# Contributing to lematter
+# Contributing to Lematter
 
 Thanks for your interest in contributing. This guide covers how to set up the
 project, the conventions we follow, and how to submit changes.

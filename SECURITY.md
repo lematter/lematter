@@ -14,7 +14,7 @@ latest version on the `main` branch.
 If you discover a security vulnerability, please report it responsibly:
 
 - **Do not** open a public issue for security problems.
-- Email the maintainers at **heyhrudu@outlook.com** with a clear description
+- Email the maintainers at **security@lematter.in** with a clear description
   of the issue and steps to reproduce it.
 
 Please include:

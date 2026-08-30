@@ -1,6 +1,6 @@
 {
   "App": {
-    "brand": "lematter",
+    "brand": "Lematter",
     "nav": {
       "home": "Home",
       "terms": "Terms",
@@ -8,7 +8,7 @@
       "cookies": "Cookies"
     },
     "footer": {
-      "rights": "© {year} lematter. All rights reserved."
+      "rights": "© {year} Lematter. All rights reserved."
     }
   },
   "Home": {

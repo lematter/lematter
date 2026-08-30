@@ -1,6 +1,6 @@
 # Roadmap
 
-This document outlines the planned direction for lematter. It is a living
+This document outlines the planned direction for Lematter. It is a living
 document and priorities may shift.
 
 ## Now

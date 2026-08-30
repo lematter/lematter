@@ -1,4 +1,4 @@
-# lematter
+# Lematter
 
 A [Next.js](https://nextjs.org) application built with the App Router, internationalization via [next-intl](https://next-intl.dev), and UI components from [shadcn/ui](https://ui.shadcn.com).
 

@@ -10,7 +10,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 # Project guidance for agents
 
-lematter is a Next.js 16 (App Router) app with TypeScript, React 19, Tailwind
+Lematter is a Next.js 16 (App Router) app with TypeScript, React 19, Tailwind
 CSS v4, shadcn/ui, and next-intl for internationalization.
 
 ## Commands
