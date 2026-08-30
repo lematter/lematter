@@ -83,18 +83,10 @@ npx shadcn@latest add <component>
 
 ## Analytics
 
-Analytics are optional and **disabled by default**. They only load when the
-corresponding environment variable is set, so forks and local development send
-no data anywhere unless you opt in.
-
-| Variable                 | Provider                | Enable by setting |
-| ------------------------ | ----------------------- | ----------------- |
-| `NEXT_PUBLIC_GA_ID`      | Google Analytics (gtag) | your measurement ID (e.g. `G-XXXXXXXXXX`) |
-| `NEXT_PUBLIC_CLARITY_ID` | Microsoft Clarity       | your project ID   |
-
-Set these in your deployment environment (or `.env.local` for local testing).
-Because they are per-deployment configuration, the real IDs are not committed to
-the repository.
+The app loads [Google Analytics](https://analytics.google.com) and
+[Microsoft Clarity](https://clarity.microsoft.com). The measurement/project IDs
+are public (they ship to the browser) and are set directly in
+`app/[locale]/layout.tsx`. If you fork this project, update those IDs to your own.
 
 ## Contributing
 

@@ -8,8 +8,10 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 
-const gaId = process.env.NEXT_PUBLIC_GA_ID;
-const clarityId = process.env.NEXT_PUBLIC_CLARITY_ID;
+// Analytics IDs are public by design (they ship to the browser), so they are
+// hardcoded here rather than configured via environment variables.
+const GA_ID = "G-DFJRS0N4YM";
+const CLARITY_ID = "yac0qece9c";
 
 const googleSans = Google_Sans({
   variable: "--font-google-sans",
@@ -65,16 +67,14 @@ export default async function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
-        {gaId ? <GoogleAnalytics gaId={gaId} /> : null}
-        {clarityId ? (
-          <Script id="ms-clarity" strategy="afterInteractive">
-            {`(function(c,l,a,r,i,t,y){
-              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-            })(window, document, "clarity", "script", "${clarityId}");`}
-          </Script>
-        ) : null}
+        <GoogleAnalytics gaId={GA_ID} />
+        <Script id="ms-clarity" strategy="afterInteractive">
+          {`(function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+          })(window, document, "clarity", "script", "${CLARITY_ID}");`}
+        </Script>
       </body>
     </html>
   );
