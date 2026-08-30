@@ -80,7 +80,7 @@ export async function Connect() {
                   $ npx -y @lematter/mcp
                 </TypingAnimation>
                 <AnimatedSpan className="text-muted-foreground">
-                  → Connecting to Lematter (Model Context Protocol)...
+                  → Connecting to Lematter (Model Context Protocol)
                 </AnimatedSpan>
                 <AnimatedSpan className="text-primary">
                   ✓ Connected — 3 tools, 1 resource available
