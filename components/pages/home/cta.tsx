@@ -1,4 +1,5 @@
 import { getTranslations } from "next-intl/server";
+import { NewsletterForm } from "@/components/forms";
 
 export async function Cta() {
   const t = await getTranslations("Home.cta");
@@ -9,6 +10,10 @@ export async function Cta() {
         <h2 className="text-2xl font-semibold tracking-tight text-balance sm:text-3xl">
           {t("heading")}
         </h2>
+        <p className="mt-3 max-w-md text-muted-foreground text-balance">
+          {t("subtitle")}
+        </p>
+        <NewsletterForm className="mt-8 w-full max-w-md" />
       </div>
     </section>
   );
