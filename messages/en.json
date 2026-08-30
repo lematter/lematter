@@ -1,8 +1,116 @@
 {
+  "App": {
+    "brand": "lematter",
+    "nav": {
+      "home": "Home",
+      "terms": "Terms",
+      "privacy": "Privacy",
+      "cookies": "Cookies"
+    },
+    "footer": {
+      "rights": "© {year} lematter. All rights reserved."
+    }
+  },
   "Home": {
-    "title": "To get started, edit the <file>page.tsx</file> file.",
-    "description": "Looking for a starting point or more instructions? Head over to <templates>Templates</templates> or the <learning>Learning</learning> center.",
-    "deploy": "Deploy Now",
-    "docs": "Documentation"
+    "hero": {
+      "heading": "Hero"
+    },
+    "features": {
+      "heading": "Features"
+    },
+    "faqs": {
+      "heading": "FAQs"
+    },
+    "cta": {
+      "heading": "Get Started"
+    }
+  },
+  "Legal": {
+    "title": "Legal",
+    "subtitle": "Policies and terms that govern your use of this service.",
+    "lastUpdated": "Last updated: {date}",
+    "backToLegal": "Back to Legal",
+    "index": {
+      "terms": {
+        "title": "Terms of Service",
+        "summary": "The rules and conditions for using our service."
+      },
+      "privacy": {
+        "title": "Privacy Policy",
+        "summary": "How we collect, use, and protect your personal data."
+      },
+      "cookies": {
+        "title": "Cookie Policy",
+        "summary": "How and why we use cookies and similar technologies."
+      }
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "intro": "These Terms of Service govern your access to and use of our website and services. By using the service, you agree to be bound by these terms.",
+      "acceptance": {
+        "heading": "1. Acceptance of Terms",
+        "body": "By accessing or using the service, you confirm that you accept these terms and agree to comply with them. If you do not agree, you must not use the service."
+      },
+      "useOfService": {
+        "heading": "2. Use of the Service",
+        "body": "You agree to use the service only for lawful purposes and in accordance with these terms. You are responsible for any activity that occurs under your account."
+      },
+      "intellectualProperty": {
+        "heading": "3. Intellectual Property",
+        "body": "All content, features, and functionality of the service are owned by us or our licensors and are protected by applicable intellectual property laws."
+      },
+      "liability": {
+        "heading": "4. Limitation of Liability",
+        "body": "To the fullest extent permitted by law, we are not liable for any indirect, incidental, or consequential damages arising from your use of the service."
+      },
+      "changes": {
+        "heading": "5. Changes to These Terms",
+        "body": "We may revise these terms from time to time. Continued use of the service after changes take effect constitutes acceptance of the updated terms."
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "This Privacy Policy explains how we collect, use, and safeguard your information when you use our service.",
+      "collection": {
+        "heading": "1. Information We Collect",
+        "body": "We may collect information you provide directly, such as account details, as well as data collected automatically, such as usage and device information."
+      },
+      "use": {
+        "heading": "2. How We Use Information",
+        "body": "We use collected information to provide, maintain, and improve the service, to communicate with you, and to comply with legal obligations."
+      },
+      "sharing": {
+        "heading": "3. Sharing of Information",
+        "body": "We do not sell your personal data. We may share information with service providers who process it on our behalf, or when required by law."
+      },
+      "rights": {
+        "heading": "4. Your Rights",
+        "body": "Depending on your location, you may have rights to access, correct, or delete your personal data. Contact us to exercise these rights."
+      },
+      "contact": {
+        "heading": "5. Contact Us",
+        "body": "If you have questions about this Privacy Policy, please contact us through the channels provided on our website."
+      }
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "intro": "This Cookie Policy explains what cookies are, how we use them, and the choices you have.",
+      "what": {
+        "heading": "1. What Are Cookies",
+        "body": "Cookies are small text files stored on your device that help websites function and remember information about your visit."
+      },
+      "types": {
+        "heading": "2. Types of Cookies We Use",
+        "body": "We use essential cookies required for the service to function, as well as optional cookies for analytics and preferences."
+      },
+      "manage": {
+        "heading": "3. Managing Cookies",
+        "body": "You can control and delete cookies through your browser settings. Disabling some cookies may affect how the service works."
+      },
+      "changes": {
+        "heading": "4. Changes to This Policy",
+        "body": "We may update this Cookie Policy from time to time. Any changes will be posted on this page with a revised date."
+      }
+    }
   }
 }
