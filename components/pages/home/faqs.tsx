@@ -1,5 +1,10 @@
 import { getTranslations } from "next-intl/server";
-import { FaqsAccordion, type FaqItem } from "./faqs-accordion";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 export async function Faqs() {
   const t = await getTranslations("Home.faqs");
@@ -13,12 +18,6 @@ export async function Faqs() {
     "free",
   ] as const;
 
-  const items: FaqItem[] = keys.map((key) => ({
-    value: key,
-    question: t(`items.${key}.question`),
-    answer: t(`items.${key}.answer`),
-  }));
-
   return (
     <section
       id="faqs"
@@ -29,7 +28,16 @@ export async function Faqs() {
       </h2>
 
       <div className="mt-8 w-full sm:mt-12">
-        <FaqsAccordion items={items} />
+        <Accordion className="w-full text-left">
+          {keys.map((key) => (
+            <AccordionItem key={key} value={key}>
+              <AccordionTrigger>{t(`items.${key}.question`)}</AccordionTrigger>
+              <AccordionContent className="text-muted-foreground">
+                {t(`items.${key}.answer`)}
+              </AccordionContent>
+            </AccordionItem>
+          ))}
+        </Accordion>
       </div>
     </section>
   );

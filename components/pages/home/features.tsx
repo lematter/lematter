@@ -48,10 +48,7 @@ export async function Features() {
               </div>
             </CardHeader>
             <CardContent>
-              <CardDescription className="space-y-2">
-                <span className="block">{t(`items.${key}.line1`)}</span>
-                <span className="block">{t(`items.${key}.line2`)}</span>
-              </CardDescription>
+              <CardDescription>{t(`items.${key}.description`)}</CardDescription>
             </CardContent>
           </Card>
         ))}

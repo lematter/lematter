@@ -28,33 +28,27 @@
       "items": {
         "knowledgeGraph": {
           "title": "Knowledge Graph",
-          "line1": "Understands how scientific concepts relate to one another.",
-          "line2": "Connects ideas across research instead of treating them in isolation."
+          "description": "Understands how scientific concepts relate to one another, connecting ideas across research instead of treating them in isolation."
         },
         "semanticSearch": {
           "title": "Semantic Search",
-          "line1": "Finds relevant research based on meaning, not exact wording.",
-          "line2": "Gets useful results even if you phrase things differently."
+          "description": "Finds relevant research based on meaning rather than exact wording, so you get useful results even when you phrase things differently."
         },
         "dataSovereignty": {
           "title": "Data Sovereignty",
-          "line1": "Keeps your data within your own environment at all times.",
-          "line2": "Nothing sensitive has to leave your control to use it."
+          "description": "Keeps your data within your own environment at all times, so nothing sensitive ever has to leave your control to use it."
         },
         "openSource": {
           "title": "Open Source",
-          "line1": "Everything about how the platform works is open and inspectable.",
-          "line2": "Never dependent on a closed system you can't verify."
+          "description": "Everything about how the platform works is open and inspectable, so you're never dependent on a closed system you can't verify."
         },
         "complianceControls": {
           "title": "Compliance Controls",
-          "line1": "Built to meet standards required in regulated research settings.",
-          "line2": "Helps institutions use the platform without extra compliance work."
+          "description": "Built to meet the standards required in regulated research settings, helping institutions adopt the platform without extra compliance work."
         },
         "labIntegration": {
           "title": "Lab Integration",
-          "line1": "Fits naturally into the tools and workflows you already use.",
-          "line2": "No need to change how your team works to benefit."
+          "description": "Fits naturally into the tools and workflows you already use, so your team benefits without changing how it works."
         }
       }
     },
