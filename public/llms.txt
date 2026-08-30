@@ -1,25 +1,42 @@
 # Lematter
 
-> Lematter is an open source AI platform for life science research. It gives grounded, citation-backed answers instead of generic AI responses, and is built for the trust, privacy, and compliance needs of researchers, labs, and institutions.
+> Lematter is an open source, self-hostable AI platform for life science research. It delivers grounded, citation-backed answers for biotech, pharma, and healthcare research — the trustworthy alternative to generic AI, with semantic search, a biology knowledge graph, data sovereignty, and compliance controls.
 
-Lematter is designed specifically for research and lab use. Every answer is grounded in real sources with verifiable citations. The platform is open source and can be self-hosted so data stays within your own infrastructure.
+Lematter is built specifically for research and lab use. Every answer is grounded in real sources with verifiable citations, so researchers can trust and check the results. The platform is open source with no vendor lock-in, and can be self-hosted so sensitive data stays within your own infrastructure.
+
+## What is Lematter?
+
+Lematter is an open source life science AI platform — an AI for biotech research that gives grounded, citation-backed answers instead of generic AI responses. It combines semantic search over scientific literature with a knowledge graph for biology research, and is designed for data sovereignty and compliance in regulated research settings.
 
 ## Key features
 
-- Knowledge Graph: understands how scientific concepts relate to one another and connects ideas across research.
-- Semantic Search: finds relevant research based on meaning, not exact wording.
-- Data Sovereignty: keeps your data within your own environment; nothing sensitive has to leave your control.
-- Open Source: everything about how the platform works is open and inspectable.
-- Compliance Controls: built to meet standards required in regulated research settings.
-- Lab Integration: fits into the tools and workflows teams already use.
+- Knowledge Graph: a knowledge graph for biology research that relates scientific concepts and connects ideas across studies.
+- Semantic Search: semantic search for scientific literature that finds relevant research by meaning, not exact wording.
+- Citation-backed answers: an AI research tool with citations you can verify, for trustworthy scientific literature review and synthesis.
+- Data Sovereignty: a data-sovereign AI platform that keeps data within your own environment; nothing sensitive has to leave your control.
+- Open Source: open source AI with no vendor lock-in; everything about how the platform works is open and inspectable.
+- Compliance Controls: compliant AI for healthcare research, built to meet standards required in regulated settings.
+- Self-hosting: self-hosted AI for research labs, so your infrastructure stays under your control.
+- Lab Integration: fits into the tools and workflows bioinformatics teams already use.
 
 ## Who it is for
 
-- Researchers, labs, biotech teams, and institutions that need trustworthy AI support for their work.
+- Researchers, labs, and biotech teams that need trustworthy AI for biotech research.
+- Pharma R&D teams using AI for pharma R&D and scientific literature review.
+- Public health and government researchers needing a government life science AI platform.
+- Institutions requiring a HIPAA-compliant AI research tool and data sovereignty.
+- Bioinformatics teams looking for AI literature synthesis tools.
 
-## Pricing
+## Common questions
 
-- The open source core is free to use.
+- Is Lematter open source? Yes. The platform is open source, so anyone can inspect how it works.
+- Can I self-host Lematter? Yes. Self-hosting is supported so your data can stay within your own infrastructure.
+- Is Lematter free? The open source core is free to use.
+- How is it different from other AI tools? It is built for research and lab use, and every answer is grounded in real sources with citations you can verify.
+
+## Discovery
+
+- [Skill description](/SKILL.md): how to use Lematter as a research assistant.
 
 ## Legal
 

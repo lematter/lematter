@@ -12,6 +12,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const routes = [
     { path: "/", changeFrequency: "weekly" as const, priority: 1 },
+    // Machine-readable discovery files for answer engines / LLMs (AEO).
+    { path: "/llms.txt", changeFrequency: "monthly" as const, priority: 0.6 },
+    { path: "/SKILL.md", changeFrequency: "monthly" as const, priority: 0.5 },
     { path: "/legal/terms", changeFrequency: "yearly" as const, priority: 0.3 },
     {
       path: "/legal/privacy",
